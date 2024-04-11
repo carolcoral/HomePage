@@ -1,0 +1,55 @@
+:root {
+    --halo-post-restrict-block-span-color: #e5e7eb;
+    --halo-post-restrict-block-text-color: #000;
+    --halo-post-restrict-btn-color: #5F7BCF;
+    --halo-post-restrict-btn-hover-color: #3F65D3;
+    --halo-post-restrict-btn-text-color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    .color-scheme-auto,
+    [data-color-scheme='auto'] {
+        color-scheme: dark;
+        --halo-post-restrict-block-span-color: rgb(165 127 151);
+        --halo-post-restrict-block-text-color: rgb(255, 255, 255);
+        --halo-post-restrict-btn-color: rgb(36 69 179);
+        --halo-post-restrict-btn-hover-color: rgb(23 67 212);
+        --halo-post-restrict-btn-text-color: rgb(255, 255, 255);
+    }
+}
+
+.color-scheme-dark,
+.dark,
+[data-color-scheme='dark'] {
+    color-scheme: dark;
+    --halo-post-restrict-block-span-color: rgb(165 127 151);
+    --halo-post-restrict-block-text-color: rgb(255, 255, 255);
+    --halo-post-restrict-btn-color: rgb(36 69 179);
+    --halo-post-restrict-btn-hover-color: rgb(23 67 212);
+    --halo-post-restrict-btn-text-color: rgb(255, 255, 255);
+}
+
+@media (prefers-color-scheme: light) {
+
+    .color-scheme-auto,
+    [data-color-scheme='auto'] {
+        color-scheme: light;
+        --halo-post-restrict-block-span-color: #e5e7eb;
+        --halo-post-restrict-block-text-color: #000;
+        --halo-post-restrict-btn-color: #5F7BCF;
+        --halo-post-restrict-btn-hover-color: #3F65D3;
+        --halo-post-restrict-btn-text-color: #fff;
+    }
+}
+
+.color-scheme-light,
+.light,
+[data-color-scheme='light'] {
+    color-scheme: light;
+    --halo-post-restrict-block-span-color: #e5e7eb;
+    --halo-post-restrict-block-text-color: #000;
+    --halo-post-restrict-btn-color: #5F7BCF;
+    --halo-post-restrict-btn-hover-color: #3F65D3;
+    --halo-post-restrict-btn-text-color: #fff;
+}
